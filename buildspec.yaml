@@ -5,7 +5,6 @@ phases:
     commands:
      - aws s3 sync . s3://kanisrcbckt
 
-
 artifacts:
   files:
     - '**/*'
