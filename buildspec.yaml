@@ -1,6 +1,6 @@
 version: 0.2
 phases:
-  install: null
+  install: http
   runtime-versions: null
   nodejs: 16
   post_build: null
