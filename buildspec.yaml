@@ -3,9 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Building the HTML file..."
-      - mkdir -p dist
-      - cp index.html dist/
+      
+      - aws s3 sync . s3://kanisrcbckt
 
 artifacts:
   files:
