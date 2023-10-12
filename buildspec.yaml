@@ -4,10 +4,8 @@ phases:
   build:
     commands:
      - aws s3 sync . s3://kanisrcbckt
-     - mkdir -p dist
-     - cp index.html dist/
     
 artifacts:
   files:
     - '**/*'
-  base-directory: dist
+  
